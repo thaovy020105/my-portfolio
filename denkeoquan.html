@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Đèn kéo quân</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+body{
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.scene{
+    width:300px;
+    height:300px;
+    margin:100px auto;
+    perspective:900px;
+}
+
+.carousel{
+    width:100%;
+    height:100%;
+    position:relative;
+    transform-style:preserve-3d;
+}
+
+.carousel img{
+    position:absolute;
+    width:180px;
+    height:180px;
+    left:60px;
+    top:60px;
+    object-fit:cover;
+    border:4px solid white;
+    border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Trang chủ</a>
+<a href="about.html">Giới thiệu</a>
+<a href="contact.html">Liên hệ</a>
+<a href="denkeoquan.html">Đèn kéo quân</a>
+</nav>
+
+<h1>Đèn kéo quân</h1>
+
+<div class="scene">
+
+<div class="carousel" id="carousel">
+    
+<img src="images/hinh1.jpg">
+
+<img src="images/hinh2.jpg">
+
+<img src="images/hinh3.jpg">
+
+<img src="images/hinh4.jpg">
+
+<img src="images/hinh5.jpg">
+
+<img src="images/hinh6.jpg">
+
+</div>
+
+</div>
+
+<script src="js/denkeoquan.js"></script>
+
+</body>
+</html>
